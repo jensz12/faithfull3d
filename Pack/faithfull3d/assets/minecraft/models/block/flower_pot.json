@@ -1,0 +1,74 @@
+{
+"__comment": "Designed by Jensz12 with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/flower_pot",
+    "block": "blocks/flower_pot",
+    "soil": "blocks/dirt"
+},
+"elements": [ 
+{
+    "__comment": "North",
+    "from": [ 6, 0, 5.002 ],
+    "to": [ 9.9998, 6, 6 ],
+    "faces": {
+        "down":  { "uv": [ 6.01, 15.01, 9.99, 15.99 ], "rotation": 180, "texture": "#block", "cullface": "down" },
+        "up":    { "uv": [ 6.0100002288818359, 10.010000228881836, 9.9899997711181641, 10.989999771118164 ], "rotation": 180, "texture": "#block", "cullface": "Know2Good" },
+        "north": { "uv": [ 6.0100002288818359, 10.010000228881836, 9.9899997711181641, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "south": { "uv": [ 9.9899997711181641, 10.010000228881836, 6.0100002288818359, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" }
+    }
+},
+{
+    "__comment": "East",
+    "from": [ 10, 0, 5 ],
+    "to": [ 11, 6, 11 ],
+    "faces": {
+        "down":  { "uv": [ 5.01, 15.01, 10.99, 15.99 ], "rotation": 90, "texture": "#block", "cullface": "down" },
+        "up":    { "uv": [ 5.0100002288818359, 10.010000228881836, 10.989999771118164, 10.989999771118164 ], "rotation": 270, "texture": "#block", "cullface": "Know2Good" },
+        "north": { "uv": [ 10.010000228881836, 10.010000228881836, 10.989999771118164, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "south": { "uv": [ 5.0100002288818359, 10.010000228881836, 5.9899997711181641, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "west":  { "uv": [ 10.989999771118164, 10.010000228881836, 5.0100002288818359, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "east":  { "uv": [ 5.0100002288818359, 10.010000228881836, 10.989999771118164, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" }
+    }
+},
+{
+    "__comment": "South",
+    "from": [ 6, 0, 10 ],
+    "to": [ 10, 6, 10.998 ],
+    "faces": {
+        "down":  { "uv": [ 6.01, 15.01, 9.99, 15.99 ], "texture": "#block", "cullface": "down" },
+        "up":    { "uv": [ 6.0100002288818359, 10.010000228881836, 9.9899997711181641, 10.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "north": { "uv": [ 9.9899997711181641, 10.010000228881836, 6.0100002288818359, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "south": { "uv": [ 6.0100002288818359, 10.010000228881836, 9.9899997711181641, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" }
+    }
+},
+{
+    "__comment": "West",
+    "from": [ 5, 0, 5 ],
+    "to": [ 6, 6, 10.996 ],
+    "faces": {
+        "down":  { "uv": [ 5.01, 15.01, 10.99, 15.99 ], "rotation": 270, "texture": "#block", "cullface": "down" },
+        "up":    { "uv": [ 5.0100002288818359, 10.010000228881836, 10.989999771118164, 10.989999771118164 ], "rotation": 90, "texture": "#block", "cullface": "Know2Good" },
+        "north": { "uv": [ 5.0100002288818359, 10.010000228881836, 5.9899997711181641, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "south": { "uv": [ 10.010000228881836, 10.010000228881836, 10.989999771118164, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "west":  { "uv": [ 5.0100002288818359, 10.010000228881836, 10.989999771118164, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" },
+        "east":  { "uv": [ 10.989999771118164, 10.010000228881836, 5.0100002288818359, 15.989999771118164 ], "texture": "#block", "cullface": "Know2Good" }
+    }
+},
+{
+    "__comment": "Bottom",
+    "from": [ 6, 1, 6 ],
+    "to": [ 10, 1.0625, 10 ],
+    "faces": {
+        "down":  { "uv": [ 6.01, 12.01, 10.99, 15.99 ], "texture": "#block", "cullface": "down" }
+    }
+},
+{
+    "__comment": "Soil",
+    "from": [ 6, 0.5, 6 ],
+    "to": [ 10, 4.5, 10 ],
+    "faces": {
+        "up":    { "uv": [ 3.0099999904632568, 12.010000228881836, 6.9899997711181641, 15.989999771118164 ], "texture": "#soil", "cullface": "Know2Good" }
+    }
+}
+]
+}
