@@ -2,7 +2,8 @@
 "__comment": "Designed by Jensz12 with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
 "textures": {
     "particle": "blocks/rail_detector_powered",
-    "texture": "blocks/rail_detector_powered"
+    "texture": "blocks/rail_detector_powered",
+    "rail_detector": "blocks/rail_detector"
 },
 "elements": [ 
 {
@@ -11,10 +12,10 @@
     "faces": {
         "down":  { "uv": [ 2, 0, 4, 16 ], "texture": "#texture" },
         "up":    { "uv": [ 2, 0, 4, 16 ], "texture": "#texture" },
-        "north": { "uv": [ 2, 0, 4, 1 ], "texture": "#texture" },
+        "north": { "uv": [ 12, 0, 14, 1 ], "texture": "#texture" },
         "south": { "uv": [ 2, 15, 4, 16 ], "texture": "#texture" },
-        "west":  { "uv": [ 3, 0, 4, 16 ], "texture": "#texture" },
-        "east":  { "uv": [ 2, 0, 3, 16 ], "texture": "#texture" }
+        "west":  { "uv": [ 2, 0, 3, 16 ], "texture": "#rail_detector" },
+        "east":  { "uv": [ 3, 0, 4, 16 ], "texture": "#rail_detector" }
     }
 },
 {
@@ -23,10 +24,10 @@
     "faces": {
         "down":  { "uv": [ 12, 0, 14, 16 ], "texture": "#texture" },
         "up":    { "uv": [ 12, 0, 14, 16 ], "texture": "#texture" },
-        "north": { "uv": [ 12, 0, 14, 1 ], "texture": "#texture" },
+        "north": { "uv": [ 2, 0, 4, 1 ], "texture": "#texture" },
         "south": { "uv": [ 12, 15, 14, 16 ], "texture": "#texture" },
-        "west":  { "uv": [ 12, 0, 13, 16 ], "texture": "#texture" },
-        "east":  { "uv": [ 13, 0, 14, 16 ], "texture": "#texture" }
+        "west":  { "uv": [ 12, 0, 13, 16 ], "texture": "#rail_detector" },
+        "east":  { "uv": [ 13, 0, 14, 16 ], "texture": "#rail_detector" }
     }
 },
 {
